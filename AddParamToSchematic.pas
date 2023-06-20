@@ -30,7 +30,7 @@ begin
   Fields.Add(RemoveQuotes(Trim(Copy(LineOfText, FieldStart, Length(LineOfText) - FieldStart + 1))));
 end;
 
-Procedure AddParamToSchematicV22;
+Procedure AddParamToSchematic;
 Var
   CurrentSchematic : ISch_Document;
   Iterator : ISch_Iterator;
